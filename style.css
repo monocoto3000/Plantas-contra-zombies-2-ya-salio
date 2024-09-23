@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('images/frontyard.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat
+}
+
+#menu {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#menu button {
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+.gridCell {
+    border: 1px solid #ccc;
+    height: 60px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#menu {
+    display: flex;               
+    background-color: #8B4513;  
+    align-items: center;      
+    justify-content: space-between; 
+    width: 400px;
+}
+
+#sunPointsContainer {
+    display: flex;              
+    align-items: center;    
+    margin-right: 20px;
+}
+
+.sunCard {
+    background-color: #582407; 
+    border-radius: 10px;       
+    padding: 10px;            
+    text-align: center;         
+    display: flex;              
+    flex-direction: column;    
+    align-items: center;     
+}
+
+.sunImage {
+    background-color: #8B4513;  
+    border-radius: 50%;         
+    padding: 10px;              
+}
+
+.sunImage img {
+    width: 45px;              
+}
+
+
+#sunPointsIcon {
+    width: 30px;                
+    margin-right: 5px;        
+}
+
+.plant-card {
+    display: flex;           
+    flex-direction: column;     
+    align-items: center;         
+    background-color: #fff;     
+    border: 1px solid #ccc;    
+    border-radius: 5px;        
+}
+
+
+button {
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3b703b; 
+}
+
