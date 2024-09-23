@@ -1,0 +1,17 @@
+{
+  "name": "plantas-contra-zombies-2",
+  "version": "1.0.0",
+  "main": "main.js",
+  "homepage": "https://monocoto3000.github.io/Plantas-contra-zombies-2-ya-salio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}

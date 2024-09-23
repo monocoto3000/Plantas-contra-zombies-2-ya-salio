@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants vs Zombies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <div id="sunPointsContainer">
+            <div class="sunCard">
+                <div class="sunImage">
+                    <img src="images/icons/sun.png"> 
+                </div>
+                <h2><span id="sunPoints" style="background-color: white; padding: 10px; border-radius: 10px;">50</span></h2>
+            </div>
+        </div>
+        <button class="plant-card" id="Sunflower">
+            <h5>Sunflower</h5>
+            <img src="images/sunflower.png" width="45">
+                <div style="display: flex;">
+                    <img src="images/icons/sun.png" width="35">
+                    <p>50</p>
+                </div>
+        </button>
+
+        <button class="plant-card" id="Peashooter">
+            <h5>Peashooter</h5>
+            <img src="images/peashooter.png" width="45">
+            <div style="display: flex;">
+                <img src="images/icons/sun.png" width="35">
+                <p>100</p>
+            </div>
+        </button>
+
+        <button class="plant-card" id="DoublePeashooter">
+            <h5>Sunflower</h5>
+            <img src="images/doublePeashooter.png" width="45">
+            <div style="display: flex;">
+                <img src="images/icons/sun.png" width="35">
+                <p>200</p>
+            </div>
+        </button>
+    </div>
+    <canvas id="gameCanvas" width="1000" height="600"></canvas>
+    <button id="restartButton" style="display: none;">Reiniciar</button>
+
+    <!-- Entidades -->
+    <script src="/entities/plants/Plant.js"></script>
+    <script src="/entities/plants/Peashooter.js"></script>
+    <script src="/entities/plants/DoublePeashooter.js"></script>
+    <script src="/entities/plants/Sunflower.js"></script>
+    <script src="/entities/zombies/Zombie.js"></script>
+    <script src="/entities/zombies/Classic.js"></script>
+    <script src="/entities/zombies/Bucket.js"></script>
+
+    <!-- Utilidades -->
+    <script src="/utils/Pea.js"></script>
+
+    <!-- Generales -->
+    <script src="/images.js"></script>
+    <script src="/main.js"></script>
+
+</body>
+</html>
